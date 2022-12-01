@@ -1,0 +1,126 @@
+*{margin: 0 !important;
+padding: 0 !important;
+box-sizing: content-box !important;}
+
+#logo{ width: 150px !important;
+
+background-color: black;
+padding: 15px !important;
+border-radius: 20px;}
+
+nav{display: flex;
+justify-content: space-between;}
+
+.nav-link {color: rgb(15, 14, 14) !important;}
+
+a{margin-right: 20px !important;
+    padding: 10px !important;
+font-size: 20px !important;
+}
+
+a:hover{background-color: bisque;
+border-radius: 20px;
+}
+
+h1{display: flex;
+justify-content: center;
+align-items: center;
+background-color: bisque;
+height: 150px;}
+
+label{margin-left: 10px !important ;}
+
+ 
+.button{display: flex;}
+
+#search{width: 25px;}
+
+.form-control{width: 300px;}
+
+form{display: flex;
+justify-content: space-around;}
+
+.cartas{display: flex;
+justify-content: space-around;
+margin: 50px 0px !important;
+}
+
+.card{padding: 15px !important;
+background-color: bisque;}
+
+.price-img{display: flex;
+justify-content: space-between;
+margin-top: 10px !important;}
+
+#instagram{width: 50px;}
+#facebook{width: 50px;}
+#Wapp{width: 50px;}
+
+footer div{margin: 25px 30px 0px 10px !important;}
+
+.botton{display: flex;
+flex-wrap: wrap;
+align-items:flex-end;}
+
+.contacts{margin: 50px !important;}
+
+table,thead,tr, td {border-collapse: collapse;
+border: 3px solid black;}
+td{height: 20px; background-color: bisque;}
+th{height: 40px;}
+table{width: 1200px;}
+
+.tabla{display: flex;
+justify-content: center;
+margin: 50px 0px !important;}
+
+#books{width: 400px;}
+
+.details{background-color: bisque;
+padding: 20px !important;
+border: 3px solid black;
+display: flex;
+justify-content: center;}
+
+.ditText h5, p{display: flex;
+justify-content: center;
+}
+
+.ditText p {width: 200px;
+margin-left: 20px !important;}
+
+input{background-color:bisque;
+padding: 5px !important;
+border-radius: 20px;}
+
+/* responsive*/ 
+
+@media (max-width: 425px) and (min-width: 375px){
+    h1{height: 50px !important;}
+    .nav-link{font-size: 10px !important;
+    padding: 2px !important;}
+    .categorias form{font-size: 10px;
+        display:flex;
+    flex-direction: column;}
+    #exampleFormControlInput1{width: 150px;}
+    .contenido{display: flex;
+    margin: 20px 0px 20px 28px !important;}
+    #instagram{width: 25px;}
+    #facebook{width: 25px;}
+    #Wapp{width: 25px;}
+    #logo{width: 80px !important;}
+    .details {display: flex;
+    flex-direction: column;
+align-items: center;}
+    .details img{width: 325px !important;
+    margin-bottom: 10px !important;}
+}
+@media (max-width:425px) and (min-width: 376px) {
+    .contenido{display: flex;
+        margin: 20px 0px 20px 50px !important;}}
+ @media (max-width:768px) and (min-width: 426px){
+    h1{height: 100px !important;}
+    .contenido{display: flex;
+        margin: 20px 0px 20px 40px !important;}}
+            
+        
