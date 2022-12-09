@@ -42,10 +42,15 @@ justify-content: space-around;}
 
 .cartas{display: flex;
 justify-content: space-around;
-margin: 50px 0px !important;
+
+}
+.col{display: flex;
+    justify-content: space-around;
+    margin: 2px !important;
+
 }
 
-.card{padding: 15px !important;
+.card{padding: 10px !important;
 background-color: bisque;}
 
 .price-img{display: flex;
