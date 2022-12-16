@@ -38,109 +38,28 @@
     </nav>
     <h1>Past Events</h1>
     <section class="text-bg-danger p-3">
-        <div class="categorias">
-        <form action="">
-            <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                <label class="form-check-label" for="defaultCheck1">
-                  Category
-                </label>
-            </div>
-            <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                <label class="form-check-label" for="defaultCheck1">
-                 Category
-                </label>
-            </div>
-            <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                <label class="form-check-label" for="defaultCheck1">
-                    Category
-                </label>
-            </div>
-            <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                <label class="form-check-label" for="defaultCheck1">
-                    Category
-                </label>
-            </div>
-            <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                <label class="form-check-label" for="defaultCheck1">
-                    Category
-                </label>
-            </div>
-            
-            <div class="button"> 
-            
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+      <div  class="categorias">
+        <form id="padre" action="">
+          <div id="htmlCategory" class="divCategory">
+
+
+
+          </div>
+          <div class="button"> 
+                <input type="search" placeholder="Search" class="form-control" id="inputBusqueda">
                <button>
                 <img src="./assets/imagenes/search.png" id="search" alt="search">
                </button>
-               
-            </div>
+          </div>
         </form>
-        </section>
-<section class="contenido">
-  <div class="row">
-    <div class="col">
-      <div class="card" style="width: 18rem;">
-        <img src="./assets/imagenes/Cine7.jpg" class="card-img-top" style="height: 12rem ;" alt="cine">
-        <div class="card-body">
-          <h5 class="card-title">CINE</h5>
-          <p class="card-text">texto descriptivo</p>
-          <div class="price-img">
-            <p>Price $5423</p>
-            <a href="./details.html" class="btn btn-danger">Ver Mas</a>
-        </div>
-        </div>
-      </div>
     </div>
-    <div class="col">
-      <div class="card" style="width: 18rem;">
-        <img src="./assets/imagenes/Concierto de musica1.jpg" class="card-img-top" style="height: 12rem ;" alt="concierto">
-        <div class="card-body">
-          <h5 class="card-title">Concierto de Musica</h5>
-          <p class="card-text">texto descriptivo</p>
-          <div class="price-img">
-            <p>Price $5423</p>
-            <a href="./details.html" class="btn btn-danger">Ver Mas</a>
-        </div>
-        </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card" style="width: 18rem;">
-        <img src="./assets/imagenes/Feria de comidas7.jpg" class="card-img-top" style="height: 12rem ;"alt="feriaComida">
-        <div class="card-body">
-          <h5 class="card-title">Feria de Comidas</h5>
-          <p class="card-text">texto descriptivo</p>
-          <div class="price-img">
-            <p>Price $5423</p>
-            <a href="./details.html" class="btn btn-danger">Ver Mas</a>
-        </div>
-        </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card" style="width: 18rem;">
-        <img src="./assets/imagenes/Maraton3.jpg" class="size" style="height: 12rem ;" alt="maraton">
-        <div class="card-body">
-          <h5 class="card-title">Maraton</h5>
-          <p class="card-text">texto descriptivo</p>
-        <div class="price-img">
-            <p>Price $5423</p>
-            <a href="./details.html" class="btn btn-danger">Ver Mas</a>
-        </div>
-          
-        </div>
-      </div>
-    </div>
-  </div>
+       
+  </section>
+  <article id="contenedorCards" class="d-flex flex-row justify-content-evenly flex-wrap contenido">
+  
 
 
-
-</section>
+</article>
 
 <footer class="d-flex justify-content-between text-bg-danger " style="height: 100px;">
     <div>
@@ -149,7 +68,8 @@
         <a href=""><img src="./assets/imagenes/whatsapp_black_logo_icon_147050.png" id="Wapp" alt="wp"></a> 
     </div>
     <div><h2>Cohort</h2></div>
-
+    <script src="./data.js"></script>
+    <script type="module" src="./pastEvents.js"></script>
 </footer>
 </body>
 </html>

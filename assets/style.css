@@ -40,17 +40,40 @@ label{margin-left: 10px !important ;}
 form{display: flex;
 justify-content: space-around;}
 
-.cartas{display: flex;
-justify-content: space-around;
-margin: 50px 0px !important;
+.divCategory{
+    display: flex;
+    flex-direction: row;
 }
 
-.card{padding: 15px !important;
-background-color: bisque;}
+.carta{display: flex;
+justify-content: space-around;
+margin: 10px !important;
+
+}
+article{display: flex;
+    justify-content: baseline ;
+}
+
+.col{display: flex;
+    justify-content: baseline;
+}
+
+.card{padding: 25px !important;
+background-color: bisque;
+display: flex;
+align-content: center;
+
+padding: 12px !important;}
 
 .price-img{display: flex;
 justify-content: space-between;
-margin-top: 10px !important;}
+align-items: baseline;
+margin: 20px !important;}
+
+.form-check{font-size: 13px;
+    margin:10px 30px 0px 0px !important;
+}
+
 
 #instagram{width: 50px;}
 #facebook{width: 50px;}
@@ -78,9 +101,29 @@ margin: 50px 0px !important;}
 
 .details{background-color: bisque;
 padding: 20px !important;
-border: 3px solid black;
 display: flex;
-justify-content: center;}
+justify-content: space-around;}
+
+
+
+.imgDetails{border: 3px solid black!important;
+    border-radius: 20px !important;
+    width: 500px !important;
+}
+.ditText{ font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-right: 150px !important;
+    border: 3px solid white;
+    padding: 30px!important;
+    border-radius: 20px;
+}
+
+.form-check-input{
+    height: 3px !important;
+    width: 3px !important;
+}
 
 .ditText h5, p{display: flex;
 justify-content: center;
