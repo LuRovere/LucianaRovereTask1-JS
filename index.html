@@ -37,111 +37,28 @@
     </div>
     </nav>
     <h1>HOME</h1>
-    <section class="text-bg-danger p-3">
-        <div class="categorias">
-        <form action="">
-            <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                <label class="form-check-label" for="defaultCheck1">
-                  Category
-                </label>
-            </div>
-            <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                <label class="form-check-label" for="defaultCheck1">
-                 Category
-                </label>
-            </div>
-            <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                <label class="form-check-label" for="defaultCheck1">
-                    Category
-                </label>
-            </div>
-            <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                <label class="form-check-label" for="defaultCheck1">
-                    Category
-                </label>
-            </div>
-            <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                <label class="form-check-label" for="defaultCheck1">
-                    Category
-                </label>
-            </div>
-            
-            <div class="button"> 
-            
-                <input type="email" class="form-control" id="exampleFormControlInput1">
+  <section  class="text-bg-danger p-3">
+    <div  class="categorias">
+        <form id="padre" action="">
+          <div id="htmlCategory" class="divCategory">
+
+
+
+          </div>
+          <div class="button"> 
+                <input type="search" placeholder="Search" class="form-control" id="inputBusqueda">
                <button>
                 <img src="./assets/imagenes/search.png" id="search" alt="search">
                </button>
-               
-            </div>
           </div>
         </form>
-        </section>
-<section class="contenido">
-  <div class="row">
-    <div class="col">
-      <div class="card" style="width: 18rem;">
-        <img src="./assets/imagenes/Cine7.jpg" class="card-img-top" style="height: 12rem ;" alt="cine">
-        <div class="card-body">
-          <h5 class="card-title">CINE</h5>
-          <p class="card-text">Conocé los estrenos y promociones en las salas 2D, 3D 4D. Mirá los horarios de las películas y comprá on-line con increíbles descuentos!</p>
-          <div class="price-img">
-            <p>Price $5423</p>
-            <a href="./details.html" class="btn btn-danger">Ver Mas</a>
-        </div>
-        </div>
-      </div>
     </div>
-    <div class="col">
-      <div class="card" style="width: 18rem;">
-        <img src="./assets/imagenes/Concierto de musica1.jpg" class="card-img-top" style="height: 12rem ;" alt="concierto">
-        <div class="card-body">
-          <h5 class="card-title">Concierto de Musica</h5>
-          <p class="card-text">Encuentra música en vivo cerca de ti. Compra entradas para cada concierto, festival o gira que tendrá lugar en Buenos Aires en 2022 y 2023.</p>
-          <div class="price-img">
-            <p>Price $5423</p>
-            <a href="./details.html" class="btn btn-danger">Ver Mas</a>
-        </div>
-        </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card" style="width: 18rem;">
-        <img src="./assets/imagenes/Feria de comidas7.jpg" class="card-img-top" style="height: 12rem ;"alt="feriaComida">
-        <div class="card-body">
-          <h5 class="card-title">Feria de Comidas</h5>
-          <p class="card-text">La Feria AE Market cuenta con alimentos preparados para consumir en el momento, bajo la modalidad take away, y para llevar.</p>
-          <div class="price-img">
-            <p>Price $5423</p>
-            <a href="./details.html" class="btn btn-danger">Ver Mas</a>
-        </div>
-        </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card" style="width: 18rem;">
-        <img src="./assets/imagenes/Maraton3.jpg" class="size" style="height: 12rem ;" alt="maraton">
-        <div class="card-body">
-          <h5 class="card-title">Maraton</h5>
-          <p class="card-text">A continuación,  podrán  acceder  a toda la información para poder formar parte de este gran evento deportivo al aire libre.</p>
-        <div class="price-img">
-            <p>Price $5423</p>
-            <a href="./details.html" class="btn btn-danger">Ver Mas</a>
-        </div>
-          
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-
-</section>
+       
+  </section>
+        <article id="contenedorCards" class="d-flex flex-row justify-content-evenly flex-wrap contenido">
+           
+        </article>
+       
 
 <footer class="d-flex justify-content-between text-bg-danger " style="height: 100px;">
     <div>
@@ -152,5 +69,7 @@
     <div><h2>Cohort</h2></div>
 
 </footer>
+
+<script type="module" src="./indexJS.js"></script>
 </body>
 </html>
